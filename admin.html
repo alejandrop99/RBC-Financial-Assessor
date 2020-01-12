@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body onload="adminAuthentication()">
+
+    <div id="toprow">
+        <div id="admin" class="hover" onclick="location.href='index.html'"> RBC </div>
+        <div id="customer" class="hover"> <span onclick="location.href='admin.html'" class="hover"> Admin </span> | <span onclick="location.href='customer.html'" class="hover"> Customer </span> </div>
+    </div>
+    <div id="adminmain">
+    <div id="adminpane" style="display: none">
+        <button class="adminbuttons" onclick="showSMF()"> Social Media Feedback</button>
+        <button class="adminbuttons" onclick="showCMF()"> Customer Feedback</button>
+    </div>
+
+    <div id="adminwindow"> </div>
+    </div>
+
+
+</body>
+</html>
